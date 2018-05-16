@@ -4,7 +4,7 @@ Description=Lock the screen on resume from suspend
 [Service]
 User=william
 Environment=DISPLAY=:0
-ExecStart=/usr/bin/slock -c "#8C9440" -d
+ExecStart=/usr/bin/xautolock -locknow
 
 [Install]
 WantedBy=sleep.target

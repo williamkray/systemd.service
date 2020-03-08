@@ -4,7 +4,7 @@ Description=Lock the screen on resume from suspend
 [Service]
 User=william
 Environment=DISPLAY=:0
-ExecStart=/usr/bin/xautolock -locknow
+ExecStart=/home/william/.scripts/screen-locker.sh
 
 [Install]
 WantedBy=sleep.target
